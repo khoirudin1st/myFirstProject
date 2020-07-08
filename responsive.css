@@ -1,0 +1,56 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .teacher {
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+
+    .thumbnail{
+      width: 50%;
+      max-width: 250px;
+      margin-bottom: 50px;
+    }
+  
+    .container-teacher h1 {
+      font-size: 24px;
+    }
+  
+    .teacher h3{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .teacher p{
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+  }
+  
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+    .teacher {
+      flex-direction: column;
+    }
+
+    .thumbnail{
+      margin : 0px auto;
+      margin-bottom: 50px;
+    }
+
+    
+  
+    .container-teacher h1 {
+      font-size: 24px;
+    }
+  
+    .teacher h3{
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    .teacher p{
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  }

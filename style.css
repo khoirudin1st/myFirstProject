@@ -1,0 +1,320 @@
+
+html, body, div, span, applet, object, iframe, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+a{
+  text-decoration: none;
+}
+  /* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Header CSS */
+
+header {
+  background-color: #ffcc5c;
+  color: #c1502e;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  box-shadow: 0px 3px hsla(45, 9%, 82%, 0.562) ;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+  width: auto;
+}
+
+
+.header-logo {
+  font-size: 20px;
+  width: auto;
+  padding: 13px 16px;
+  float: left;
+}
+
+.header-list {
+  float: right;
+  padding-left: 25px;
+  display: block;
+}
+
+.header-list li {
+  float: left;
+  padding: 16px;
+
+}
+
+.header-list li:hover {
+  background-color: tomato;
+  color: white;
+}
+
+
+.header-right a {
+  float: right;
+  height: auto;
+  width: auto;
+  background-color: #fefbd8;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.5;
+  transition: all 0.5s;
+  display: block;
+  line-height: 50px;
+  border-bottom: 0px;
+}
+
+.header-right a:hover {
+  background-color: #c1502e;
+  color: white;
+  opacity: 0.5;
+}
+
+/* MAIN CSS */
+
+.top-wrapper {
+  padding: 180px 0 132px 0;
+}
+
+/* .btn {
+  padding : 17px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+} */
+
+.signup {
+  background-color: #239b76;
+}
+
+.main {
+  padding: 70px 80px 100px 80px;
+}
+
+.copy-container h1 {
+  font-size: 70px;
+}
+
+.copy-container h2 {
+  font-size: 40px;
+  margin: 5px 0px;
+}
+
+.contents {
+  height: 500px;
+  margin-top: 100px;
+}
+
+.contents-wrapper {
+  margin: 0 auto;
+  width: 100%;
+  height: 450px;
+  text-align: center;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-top: 110px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  margin-bottom: 50px;
+}
+
+.contents-item {
+  float: left;
+  height: 450px;
+  width: 25%;
+  display: block;
+
+}
+
+.contents-item p {
+font-size: 24px;
+margin-top: 30px;
+}
+
+.container-teacher{
+  background: #FC5C7D;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6A82FB, #FC5C7D);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6A82FB, #FC5C7D); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  padding-top: 20px;
+  /* margin-top: 50px; */
+}
+
+.container-teacher hr{
+  width: 300px;
+}
+
+.teacher {
+    max-width: 1170px;
+    width: 100%;
+    padding: 50px 15px;
+    margin: 50px auto;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    color : #fff;
+}
+
+  .container-teacher h1{
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.teacher h3{
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.thumbnail{
+    width: 20%;
+    text-align: center;
+
+}
+
+.thumbnail img:hover{
+    opacity: 0.8;
+    filter: alpha(opacity=30);
+}
+
+  .teacher img{
+    width : 100%;
+    border-radius: 50%;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+/* Footer CSS */
+
+.contact-form {
+  padding-top: 30px;
+}
+
+.contact-form p {
+  padding-bottom: 7px;
+}
+
+footer {
+  height: 250px;
+  width: 100%;  
+  background-color: #424242;
+  color: white;
+}
+
+.footer-left {
+  font-size: 15px;
+  width: 30%;
+  padding-top: 7px;
+  padding-left: 50px;
+  float: left;
+}
+
+.section-footer {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-top: 5px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  margin-bottom: 45px;
+}
+
+.contact-form a {
+  color: white;
+}
+
+.footer-mid {
+  width: 30%;
+  float: left;
+  margin-left: 15px;
+}
+
+.footer-address h6 {
+  padding-bottom: 3px;
+}
+
+.footer-address h3 {
+  padding: 130px 0px 10px 0px;
+  font-size: 20px;
+  
+}
+
+.footer-right {
+  font-size: 15px;
+  width: 25%;
+  padding-top: 7px;
+  padding-right: 50px;
+  float: right;
+}
+
+.footer-right .footer-credit {
+  padding-top: 30px;
+}
+
+.footer-right p {
+  padding-bottom: 1px;
+}
+
+.footer-right h3 {
+  padding: 61px 0px 2px 0px;
+}
+
+.footer-right li {
+  list-style: circle;
+  padding: 1px 5px;
+  margin-left: 25px;
+  color: white;
+}
+
+.footer-right li a {
+  color: white;
+}
